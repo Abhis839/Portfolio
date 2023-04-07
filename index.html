@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Abhishek Kumar Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd35d45e3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#video">Video_Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Electrical Engineer</p>
+                <h1>Hi, I'm <span>Abhishek Kumar Singh</span><br>From Uttar Pradesh, India</h1>
+            </div>
+        </div>
+    </div>
+<!---------------------------------------------------------------About------------------------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Abhi.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hardworking and motivated student pursuing B. Tech degree eager to contribute developed knowledge in Software Engineer role. Adaptable and driven with strong work ethic and motivation to thrive in team-based or individually motivated settings. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Eduaction</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>DSA (Intermediate), C++ Programming (Intermediate), Python (Beginer)</li>
+                            <li><span>Web Development</span><br>HTML (Intermediate), CSS (Intermediate), JavaScript (Intermediate),<br> React (Beginer)</li>
+                            <li><span>Cybersecurity(Ethical Hacking) </span><br>Scanning Tools (Beginer),<br>Kali Linux (Beginer)</li>
+                            <li><span>Other Skills</span><br>Creative, Logical Thinking,Communication Skill, Project Management, Team Management, Time Management, Teamwork</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology</span><br>Pursuing with an aggregate of 76.8% in Electrical Engineering at<br>Rajkiya Engineering College, Kannauj</li>
+                            <li><span>Intermediate (XII)</span><br>Passed with 75.4% from<br>Saraswati Vidya Mandir Deoria Khas Deoria </li>
+                            <li><span>Highschool (X)</span><br>Passed with 95% from<br>Saraswati Vidya Mandir Deoria Khas Deoria</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <h3>Internships</h3>
+                            <li><span>Summer Internship</span><br>From June,2022 - July,2022<br>At UPPCL Kasia (274402)</li>
+                            <li><span>Cybersecurity Internship(1stop) </span><br>From March,2022 - June,2022<br>At CS TALAKUNCHI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------------------------Services---------------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Contact me for writing well designed, testable, efficient code by using best software development practices & for creation of website layout/user interface by using standard HTML/CSS practices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            <!--    
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>IoT Projects</h2>
+                    <p>Contact me for writing well designed, testable, efficient code by using best software development practices & for creation of projects related to internet of things using Arduino, Raspberry Pi and various microcontrollers.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            -->    
+            </div>
+        </div>
+    </div>
+<!------------------------------------------------------------Projects------------------------------------------------------------------->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <div class="work1">
+                    <img src="Images/bigbasket.jfif">
+                        <div class="layer">
+                        <h3 style="color: whitesmoke;">Grocery Site</h3>
+                        <p style="color: aquamarine;">This project is made by using HTML,CSS and Javascript. This project includes Shoppings. This web page can be opened in Mobile phones as well as Computers. </p>
+                        <a target="_blank" href="https://abhis839.github.io/Grocery-Site/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3 style="color: rgb(255, 254, 254);">Simple Low Power Inverter</h3>
+                        <p style="color: aquamarine;">This project was made by me and my team as a Miniproject for College Assesments. This project was based on Timer IC TL494 and Transformer. </p>
+                        <a target="_blank" href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3 style="color: white;">Low-Cost Solar Power Bank</h3>
+                        <p style="color: aquamarine;">This project was done by me and my team as a Miniproject for College Assesments. This project was based on TP4056 (Battery Charging Module) and CN3065(Solar Charger Module).</p>
+                        <a target="_blank" href="https://github.com/Abhishek Kumar-1709/Dashboard-and-Data-Analysis-for-IoTApplication-Project"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------------------------------------------------------------Video------------------------------------------------------------------->
+<!--
+<div id="video">
+    <div class="container">
+        <div class="row2">  
+            <div class="about-col-1-a">
+                <h1 class="sub-title">Video Resume</h1>
+                <p>In the above video i have given a little bit of introduction of mine which includes my educational qualification, some extra skills and the extra curricular activities i have done during my college.   </p>
+            </div>
+            <div class="about-col-2-a">
+                <img src="Images/Photo.jpg">
+                <video width="320" height="240" controls><source src="Images/Video Resume.mp4"></video>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<!----------------------------------------------------------------Contact---------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abhisheksvm251@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-8707359741</p>
+                <div class="social-icons">
+                    <a target="_blank" href="https://www.facebook.com/abhi.singh.98892615"><i class="fa-brands fa-facebook"></i></a>
+     
+                <a target="_blank" href="https://www.linkedin.com/in/abhishek-kumar-singh-6a011b226/ "><i class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/Abhis839"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/RESUME.pdf" download class="btn btn2">Download CV</a>
+                            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Abhishek Kumar. Made with <i class="fa-solid fa-heart"></i> by Abhishek Kumar Singh</p>
+    </div>
+</div>
+
+<!-- Javascript file link  -->
+<script src="script.js"></script>
+</body>
+</html>
